@@ -1,0 +1,21 @@
+// Prebuilt APEX blueprint for prebuilts_target_nano
+// Staged from APEX package: org.blisslabs.ag.nano (v9.0-1, Forgejo ag-ci apex repo)
+// Payload is a placeholder stub; no dev subpackage was published.
+
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+prebuilt_apex {
+    name: "org.blisslabs.ag.nano",
+    apex_name: "org.blisslabs.ag.nano",
+    source_apex_name: "org.blisslabs.ag.nano",
+    arch: {
+        x86_64: {
+            src: "org.blisslabs.ag.nano-9.0-1.apex",
+        },
+    },
+    filename: "org.blisslabs.ag.nano.apex",
+    prefer: true,
+    installable: true,
+}

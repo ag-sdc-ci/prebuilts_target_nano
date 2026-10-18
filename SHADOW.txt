@@ -1,0 +1,7 @@
+shadow prebuilt repo: nano (target)
+  registry: org.blisslabs.ag.nano v9.0-1, Forgejo ag-ci apex repo, 2026-06-14
+  api-level: 32 (CI-built)
+  upstream: external/nano
+  layout: *.apex blob at root; prebuilt_apex stanza in root Android.bp
+          (payload is a placeholder stub; no dev subpackage was published).
+  date: 2026-10-18
